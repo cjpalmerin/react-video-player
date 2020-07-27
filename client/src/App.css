@@ -1,8 +1,27 @@
+html {
+  height: 100%;
+}
+
 body {
-  margin: 100px;
+  margin-top: 8%;
+  background: rgb(255,255,255);
+  background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(199,221,226,1) 100%);
 }
 
 h1 {
-  color: dodgerblue;
+  color:#85b3be;
   text-align: center;
+}
+
+video { 
+  display: block; 
+  margin: auto; 
+  border: 10px solid white;
+  height: 400px;
+}
+
+form {
+  color:#85b3be;
+  text-align: center;
+  margin-top: 10px;
 }

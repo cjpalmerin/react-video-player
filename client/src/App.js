@@ -11,6 +11,7 @@ const VIDEOS = {
   eek: 'https://s3.amazonaws.com/codecademy-content/courses/React/react_video-eek.mp4'
 };
 
+
 export class App extends React.Component {
   constructor(props) {
     super(props);
@@ -19,11 +20,11 @@ export class App extends React.Component {
     this.chooseVideo = this.chooseVideo.bind(this);
   }
 
-  chooseVideo(newVideo){
+  chooseVideo(newVideo) {
     this.setState({
       src: VIDEOS[newVideo]
     })
-  } 
+  }
 
   render() {
     return (
